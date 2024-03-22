@@ -7,12 +7,14 @@ every 3 minutes in the application. Can be seen in the DroneService file in case
 
 Basic Integration and Unit Test has been done.
 
-### To Facilitate The Execution of the App
+### Execution of the App
 >A script is provided `MavenBash` in other to clean, package application then finally run the
 database in a Docker container.
 > 
-> The database uses PORT: 3300 in order to avoid port conflicts.
-> The App runs on 9000
+> Open the terminal at the root of the project and type the command `./Launch.sh` to run the file.
+> 
+> The MySQL Database uses PORT: 3300 in order to avoid port conflicts & the App runs on 9000
+
 
 ### NB
 > To Test Rest Endpoints, you need to run the application and the database should already be launched.
